@@ -101,8 +101,8 @@ public class IntegerSet  {
 	 * @param item the integer to remove from the set
 	 */
 	public void remove(int item) {
-		if (!set.contains(item)) {
-			set.remove(item);
+		if (set.contains(item)) {
+			set.remove(Integer.valueOf(item));
 		}
 	} 
 	
