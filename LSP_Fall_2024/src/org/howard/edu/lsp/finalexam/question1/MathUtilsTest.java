@@ -12,7 +12,7 @@ class MathUtilsTest {
     @DisplayName("Test case for factorial")
     public void testFactorial() {
 		assertEquals(1, mathUtils.factorial(0), "Factorial of 0 should be 1");
-
+		assertEquals(1, mathUtils.factorial(1), "Factorial of 1 should be 1");
         assertEquals(120, mathUtils.factorial(5), "Factorial of 5 should be 120");
 
     }
